@@ -1,0 +1,47 @@
+/*Cursors*/
+.pointer { cursor: pointer; }
+
+/*Colors*/
+.red { color: #D3122D; }
+.green { color: #060; }
+.light_green{ color: #b8e943;	 }
+.site_color { color: #1F8DB0;	 }
+.purple { color: #c11e54; }
+.slateblue{ color: #007b9c; }
+.darkred { color: #A32626; }
+.blue { color: #2756B0; }
+.smoke { color: #eeeeee; }
+.grey { color: #999999; }
+.black { color: #000; }
+.white { color: #FFF; }
+
+/*Font Formatting*/
+.uppercase { text-transform:uppercase; }
+.lowercase { text-transform:lowercase; }
+.capitalized { text-transform:capitalize; }
+.bold { font-weight:bold; }
+.italic { font-style:italic; }
+.underline { text-decoration:underline; }
+
+/*Font Sizing*/
+.font_8 { font-size: 8px; }
+.font_9 { font-size: 9px; }
+.font_10 { font-size: 10px; }
+.font_11 { font-size: 11px; }
+.font_12 { font-size: 12px; }
+.font_13 { font-size: 13px; }
+.font_14 { font-size: 14px; }
+.font_15 { font-size: 15px; }
+.font_16 { font-size: 16px; }
+.font_17 { font-size: 17px; }
+.font_18 { font-size: 18px; }
+.font_20 { font-size: 20px; }
+
+/*Here's how it can be applied to an Element.
+
+This would display in bold, 16px font-size and in Red. This gets displayed smaller, in black and italic.
+
+This isn't new by any means, but I've a designer friend who got a bit overwhelmed when he saw more than a
+single class applied to an element.
+He has since adopted the modular CSS methodology himself, and wonders how he ever designed without it.*/
+

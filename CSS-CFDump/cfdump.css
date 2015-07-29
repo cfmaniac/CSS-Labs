@@ -1,0 +1,50 @@
+/*------------------------------------------------[ :: DEV :: ]:------------------------------------------*/
+
+.cfdump_struct tbody {
+
+    font: 1.6em  "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+    text-transform: uppercase !important;
+}
+
+table.cfdump_struct {
+
+    width: 80%;
+    margin: 5em auto !important;
+    color: #F5F5F5;
+    background: darkcyan !important;
+
+}
+
+table.cfdump_struct tr td{
+    background: #202020 !important;
+}
+table.cfdump_struct th.cfc {
+    background-color: #6d0069 !important;
+
+}
+
+table.cfdump_struct th.cfc a {
+    color: #F5F5F5 !important;
+}
+
+
+table.cfdump_struct td.cfc {
+    background-color: #24748c !important;
+}
+
+table.cfdump_udf th.udf {
+    background-color: #76A2C0 !important;
+}
+
+
+table.cfdump_struct th.struct {
+
+    background-color: #575757 !important;;
+
+}
+.struct, .query {
+
+    background: #2d2d2d !important;
+
+    color: #05A6C2 !important;
+}

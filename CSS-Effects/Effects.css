@@ -1,0 +1,39 @@
+/*CSS CrossBrowser Rounded Corners*/
+.rounded { border-radius: 10px; -moz-border-radius: 10px; -webkit-border-radius: 10px; }
+
+/*Gradients*/
+.gradient_fill{ background:#fff; background:-moz-linear-gradient(center top , #FFFFFF, #E5E5E5) repeat scroll 0 0 transparent; background: -webkit-gradient(linear, left top, left bottom, from(#FFFFFF), to(#E5E5E5)); /*Gradients for IE*/ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FFFFFF', endColorstr='#E5E5E5');
+
+/*CSS Drop shadows*/
+.drop_shadow { box-shadow: 3px 3px 4px #000; -moz-box-shadow: 3px 3px 4px #000; -webkit-box-shadow: 3px 3px 4px #000; /* For IE 8 */ -ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135, Color='#000000')"; /* For IE 5.5 - 7 */ filter: progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135, Color='#000000'); }
+
+/*CSS Drop Shadow on Sides*/
+.shadow_sides { box-shadow: 6px 0px 10px -7px #888, -6px 0px 10px -7px black; -moz-box-shadow: 6px 0px 10px -7px #888, -6px 0px 10px -7px black; -webkit-box-shadow: 6px 0px 10px -7px #888, -6px 0px 10px -7px black; }
+
+/*CSS Text Shadows*/
+.text_shadow { color: #000; background: #fff; text-shadow: 2px 2px 3px #000; filter: Shadow(Color=#666666, Direction=135, Strength=5); }
+
+.text_top_shadow { /*Put the Shadow above the text*/
+color: #000; background: #fff; text-shadow: 2px -2px 3px #000; }
+
+.text_shadow_colored{ /*Makes the Text Green with an Orange Background*/
+color: #33cc33; background: #fff; text-shadow: 2px 2px 2px #ff3300; }
+
+.text_shadow_engraved{ /*Makes the Text Look like it's engraved*/
+color: #000; background: #666; text-shadow: 0px 1px 1px #fff; }
+
+.text_shadow_engraved_reverse{ /*reverse the Engraved Effect*/
+color: #666; background: #000; text-shadow: 0px 1px 0px #ccc; }
+
+.text_glow{ /*Makes it look like a Glow Effect*/
+color: #fff; background: #000; text-shadow: 1px 1px 6px #fff; }
+
+.text_blurry{ /*Makes text look blurry*/
+color: #fff; background: #666; text-shadow: 0px 0px 3px#fff; }
+
+.text_invisibled{ /*Background color and Text Color are same color*/
+color: #000; background: #000; text-shadow: 1px 1px 4px #fff; }
+
+.text_on_fire{ /*This uses Multiple shadows to make it look like the text is on fire*/
+color: #000; background: #000; text-shadow: 0 0 4px #ccc, 0 -5px 4px #ff3, 2px -10px 6px #fd3, -2px -15px 11px #f80, 2px -18px 18px #f20; }
+
